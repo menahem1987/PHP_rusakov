@@ -14,7 +14,3 @@
     $sa = function($ar) {echo '<pre>'; print_r($ar); echo '</pre>';};
     print_r ($sa($array));
 ?>
-<form method="post">
-    <br><br>
-    <input type="number" name="name" value="<?=$a?>"> <br><br><br>
-</form>
