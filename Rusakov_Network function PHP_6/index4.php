@@ -15,14 +15,12 @@
     $password = ['202cb962ac59075b964b07152d234b70', '81dc9bdb52d04dc20036dbd8313ed055'];
     $auth = false;
     $iss = isset($_SESSION['login']) && isset($_SESSION['password']);
-    foreach ($login as $value) {
         for ($i = 0; $i < count($login); $i++) {
             if ($iss && $_SESSION['login'] === $login[$i] && $_SESSION['password'] === $password[$i]) {
                 $auth = true;
                 $error = false;
             }
         }
-    }
 ?>
 <?php if($error){ ?> <p>Неверный логин и/или пароль</p> <?php } ?>
 <?php if($auth){ ?>
