@@ -25,6 +25,7 @@ class Im{
     $imm->GetcoLi($im, 210, 200, 210, 250, $color);
     $imm->GetcoLi($im, 240, 200, 240, 250, $color);
     $imm->GetcoLi($im, 225, 55, 225, 60, $color);
+
     $imm->GetcoKr($im, 225,55, 50, 50, 0, 360, $color);
     $imm->GetcoKr($im, 235,55, 10, 10, 0, 360, $color);
     $imm->GetcoKr($im, 215,55, 10, 10, 0, 360, $color);
