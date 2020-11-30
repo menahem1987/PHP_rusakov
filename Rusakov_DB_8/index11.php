@@ -73,13 +73,6 @@ if (isset($_POST["timezone2"])){
 </form>
 </div>
 <div style="background: yellowgreen; width: 400px;"><?php
-    echo '<br>';
-        echo @$_POST['timez'].'<br>';
-        echo @$_POST['offset'];
-    echo '<br>';
-    if (isset($row)){
-    print_r($row);
-    }
         $_POST = null;
     ?></div>
 </body>
